@@ -25,7 +25,10 @@
     }
   },
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
-  // "forwardPorts": [],
+  "forwardPorts": [
+    3000,
+    "pg_admin:80"
+  ],
   
   // Use 'postCreateCommand' to run commands after the container is created.
   // "postCreateCommand": "java -version",
