@@ -10,7 +10,7 @@ services:
       - infinity
 
   pg_admin:
-    image: dpage/pgadmin4:4.23
+    image: quay.io/klovercloud/kc-pgadmin-v4
     environment:
       - PGADMIN_DEFAULT_EMAIL=admin
       - PGADMIN_DEFAULT_PASSWORD=pass1234
